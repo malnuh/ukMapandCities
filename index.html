@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Map and Some Cities</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    
+    <aside>
+        <!-- HTML elements grouped within separate divisions or sections -->
+        <div class="controls">
+            <!-- HTML element for the slider -->
+            <input type="range" min="1" max="500" value="50" class="slider" id="citySlider">
+            <p id="cityCount">Cities: 50</p>
+    
+            <!-- Zoom buttons -->
+            <button id="zoomIn">Zoom In</button>
+            <button id="zoomOut">Zoom Out</button>
+    
+            <!-- Refresh button 
+            <input type="button" value="Refresh Cities" onclick="window.location.reload()">-->
+            <button id="refreshButton">Refresh</button>
+        </div>
+    
+        <div class="additional-info">
+            <!-- Additional information section -->
+            <h2>Map Info</h2>
+            <p>Hover over a circle to get the name of the city and it's related info</p>
+            <h2>Student Info</h2>
+            <h3>Name: Nuhu Malgwi</h3>
+            <h3>Stud ID: 2552208</h3>
+           
+        </div>
+    </aside>
+        
+    
+    <div id="map"> 
+
+        
+       <div id="hover">
+        
+        </div>
+
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+
+
+</script>
+</html>

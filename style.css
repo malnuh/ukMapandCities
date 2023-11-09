@@ -1,0 +1,51 @@
+
+  .tooltip {
+      position: absolute;
+      text-align: left;
+      padding: 4px;
+      font-size: 12px;
+      background: rgba(0, 0, 0, 0.8); 
+      color: rgb(240, 240, 240); 
+      border-radius: 4px;
+      pointer-events: none;
+  }
+
+  #map {
+      
+      width: 60%; 
+      float: left; 
+  }
+
+  aside {
+      
+      width: 40%; 
+      float: right; 
+  }
+ 
+aside .controls input[type="range"],
+aside .controls button,
+aside .controls span,
+aside .controls input[type="button"] {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+   
+}
+
+
+aside .additional-info h2 {
+    font-size: 24px;
+    color: #0077cc;
+    margin-bottom: 10px;
+   
+}
+
+aside .additional-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+   
+}
